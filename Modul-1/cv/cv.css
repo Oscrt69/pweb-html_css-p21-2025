@@ -1,19 +1,18 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #fdfdfd;
+  background: #f7ff02;
 }
 
 .cv-container {
   display: flex;
 }
 
-/* Sidebar */
 .sidebar {
   width: 300px;
-  background: #d66a5c;
+  background: #00aaff;
   color: white;
-  padding: 30px;
+  padding: 12px;
 }
 
 .profile-img {
@@ -30,25 +29,23 @@ body {
   margin: 20px 0;
 }
 
-.socials {
-  text-align: center;
+.socials a img {
+  width: 30px;
+  margin: 0 8px;
+  transition: transform 0.3s;
 }
 
-.socials a {
-  margin: 0 5px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
+.socials a img:hover {
+  transform: scale(1.2);
 }
 
-/* Main Content */
 .cv-main {
   flex: 1;
   padding: 40px;
 }
 
 .cv-main h2 {
-  border-bottom: 2px solid #d66a5c;
+  border-bottom: 2px solid #00aaff;
   padding-bottom: 5px;
   margin-top: 20px;
 }
@@ -57,4 +54,19 @@ body {
   float: right;
   font-size: 14px;
   color: gray;
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  background:#f59816;
 }
