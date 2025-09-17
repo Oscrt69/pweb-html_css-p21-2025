@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+}
+
+.cv-container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  background: #d66a5c;
+  color: white;
+  padding: 30px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact {
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials a {
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* Main Content */
+.cv-main {
+  flex: 1;
+  padding: 40px;
+}
+
+.cv-main h2 {
+  border-bottom: 2px solid #d66a5c;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.year {
+  float: right;
+  font-size: 14px;
+  color: gray;
+}
