@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color:#f7ff02;
 }
 
 .landing {
@@ -10,7 +11,7 @@ body {
 
 .landing-left {
   flex: 1;
-  background: #d66a5c;
+  background: #00aaff;
   color: white;
   text-align: center;
   padding: 40px;
@@ -28,14 +29,29 @@ body {
   padding: 60px;
 }
 
+.socials a img {
+  width: 30px;
+  margin: 0 8px;
+  transition: transform 0.3s;
+}
+
+.socials a img:hover {
+  transform: scale(1.2);
+}
+
 .btn {
   display: inline-block;
-  margin: 10px 0;
+  margin: 10px;
   padding: 10px 20px;
-  background: #4285f4;
+  background: #00aaff;
   color: white;
   border-radius: 20px;
   text-decoration: none;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  background:#f59816;
 }
 
 .desc {
