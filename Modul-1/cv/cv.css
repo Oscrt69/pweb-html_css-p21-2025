@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f7ff02;
+  background: #ffffff;
 }
 
 .cv-container {
@@ -9,10 +9,14 @@ body {
 }
 
 .sidebar {
-  width: 300px;
-  background: #00aaff;
+  flex: 0.4;
+  background: linear-gradient(180deg, #a6d4eb, #0077aa);
   color: white;
   padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .profile-img {
@@ -20,6 +24,13 @@ body {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  margin: 20px;
+  border: 4px solid #fff;
+}
+
+.profile-img:hover {
+  transform: scale(1.09);
+  transition: transform 0.5s;
 }
 
 .contact {
@@ -61,7 +72,7 @@ body {
   margin: 20px 0;
   padding: 10px 20px;
   background: #ffffff;
-  color: rgb(0, 0, 0);
+  color: #00aaff;
   border-radius: 20px;
   text-decoration: none;
 }
