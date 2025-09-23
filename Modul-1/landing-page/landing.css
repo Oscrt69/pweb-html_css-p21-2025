@@ -71,6 +71,10 @@ body {
   overflow-y: auto;
 }
 
+.landing-right h1 strong {
+  color: #00aaff;
+}
+
 .btn {
   display: inline-block;
   margin: 10px 0;
