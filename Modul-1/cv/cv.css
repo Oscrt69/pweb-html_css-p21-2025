@@ -75,6 +75,7 @@ body {
   color: #00aaff;
   border-radius: 20px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .btn:hover {
